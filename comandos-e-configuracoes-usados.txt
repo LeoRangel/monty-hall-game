@@ -4,6 +4,9 @@ npx create-next-app monty-hall
 ## Rodar app:
 npm run dev
 
+## Build:
+npm run build
+
 ## Integrar Typescript:
 - Criar arquivo "tsconfig.json"
 - Instalar dependências (preenche o arquivo):

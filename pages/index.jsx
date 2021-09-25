@@ -35,7 +35,7 @@ export default function Formulario() {
         </Cartao>
 
         <Cartao bgcolor="#28a085">
-          <Link href={`/jogo/${qtdPortas}/${comPresente}`}>
+          <Link href={`/jogo/${qtdPortas}/${comPresente}`} passHref>
             <h2 className={styles.link}>Iniciar</h2>
           </Link>
         </Cartao>

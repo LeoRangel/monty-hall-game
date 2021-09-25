@@ -30,7 +30,7 @@ export default function Jogo() {
 
         setValido(valoresSaoValidos)
 
-    }, [portas])
+    }, [portas, router.query.portas, router.query.temPresente])
 
     function renderizarPortas() {
         return portas.map(porta => {
@@ -54,7 +54,7 @@ export default function Jogo() {
                 }
             </div>
             <div className={styles.botoes}>
-                <Link href="/">
+                <Link href="/" passHref>
                     <button>
                         Reiniciar Jogo
                     </button>
